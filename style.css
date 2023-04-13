@@ -1,0 +1,46 @@
+.header{
+    padding: 10px;
+    background-color: black;
+    color: azure;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+flex-wrap: wrap;
+background-color:aquamarine;
+background-image:url("https://th.bing.com/th/id/OIF.ORuX0WC4V5GAiEvcHTNUtQ?pid=ImgDet&rs=1");
+}
+*{
+box-sizing: border-box;
+}
+.box{
+    padding:3px;
+    margin: 2px;
+    border-radius: 3px;
+    background-color:yellowgreen;
+}
+body{
+    background-color: aqua;
+}
+img{
+    opacity: 1;
+}
+img:hover{
+    opacity:0.6;
+}
+.container2{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.box2{
+    background-color: orangered;
+    width:50%;
+}
+.box3{
+    margin-left: 10px;
+    background-color: aquamarine;
+    border: 2px solid blue;
+    padding: 7px;
+}
